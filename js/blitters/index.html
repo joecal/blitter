@@ -1,0 +1,4 @@
+<h2>I'm the Blitters Index!</h2>
+<div data-ng-repeat="blitter in BlitterIndexViewModel.blitters">
+  <p><a data-ui-sref="blitterShow({id: blitter.id})">{{blitter.content}}</a></p>
+</div>
